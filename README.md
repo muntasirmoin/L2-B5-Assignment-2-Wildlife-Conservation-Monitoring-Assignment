@@ -101,7 +101,15 @@ OFFSET ক্লজ দিয়ে নির্ধারণ করা হয়, ক�
 
 উদাহরণ:</br>
 
-          ```
-                SELECT * FROM sightings
-                         OFFSET 5;
-          ```
+    ```
+         SELECT * FROM sightings
+        OFFSET 5;
+    ```
+
+### 7. How can you modify data using UPDATE statements?
+
+UPDATE স্টেটমেন্ট ব্যবহার করে টেবিলের ভিতরে থাকা রেকর্ডের ডেটা পরিবর্তন করা যায়। </br>
+`            UPDATE rangers
+                SET region = "Northen Hill"
+                    WHERE ranger_id = 1;
+       `
