@@ -1,5 +1,5 @@
 <h1 style="text-align: center;"> Wildlife Conservation Monitoring Assignment </h1>
-<h3 style="text-align: center;"> Bonus Section </h3>
+<h2 style="text-align: center;"> Bonus Section </h2>
 
 ### 1. What is PostgreSQL?
 
