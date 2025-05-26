@@ -1,5 +1,6 @@
 CREATE DATABASE conservation_db;
 
+
 -- create table rangers
 CREATE TABLE rangers(
   ranger_id SERIAL PRIMARY KEY,
@@ -36,14 +37,12 @@ INSERT INTO rangers (name, region) VALUES
 ('Bob White', 'River Delta'),
 ('Carol King', 'Mountain Range');
 
-
 --Sample Data Insertion Table species
 INSERT INTO species (common_name, scientific_name, discovery_date, conservation_status) VALUES
 ('Snow Leopard', 'Panthera uncia', '1775-01-01', 'Endangered'),
 ('Bengal Tiger', 'Panthera tigris tigris', '1758-01-01', 'Endangered'),
 ('Red Panda', 'Ailurus fulgens', '1825-01-01', 'Vulnerable'),
 ('Asiatic Elephant', 'Elephas maximus indicus', '1758-01-01', 'Endangered');
-
 
 --Sample Data Insertion Table sightings
 INSERT INTO sightings (species_id, ranger_id, location, sighting_time, note) VALUES
